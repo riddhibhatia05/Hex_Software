@@ -208,3 +208,78 @@ This project is open-source and available under the MIT License.
 
 🌟 Acknowledgments
 Special thanks to the creators of the speech_recognition and pyttsx3 libraries for making this project possible.
+
+
+
+Task 3
+# Tic-Tac-Toe Game in Python
+
+This repository contains a Python implementation of the classic Tic-Tac-Toe game, where a user can play against another user or the computer.
+
+## Features
+
+- **Interactive Gameplay**: Players take turns to place their marks (X or O) on a 3x3 grid.
+- **Winning Logic**: The game detects when a player wins or if the game ends in a draw.
+- **User-Friendly Interface**: The board is displayed in a clear and concise format.
+
+## How to Play
+
+1. The game begins with an empty 3x3 board.
+2. Players alternate turns to place their marks (X or O) in an empty cell.
+3. A player wins if they align three marks horizontally, vertically, or diagonally.
+4. If all cells are filled without a winner, the game ends in a draw.
+
+## Code Overview
+
+### Key Functions
+
+- **`print_board(board)`**: Displays the current state of the board.
+- **`check_winner(board, player)`**: Checks if the specified player has won the game.
+- **`is_draw(board)`**: Determines if the game is a draw.
+- **`play_turn(board, player)`**: Manages a player's move.
+
+### Sample Board Display
+```
+ X | O | X
+---+---+---
+ O | X | O
+---+---+---
+ X |   | O
+```
+
+## Requirements
+
+- Python 3.x
+
+## How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/tictactoe-python.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd tictactoe-python
+   ```
+3. Run the game script:
+   ```bash
+   python Task3.py
+   ```
+
+## Customization
+
+You can modify the game logic or add features, such as:
+- Allowing a single-player mode against an AI opponent.
+- Enhancing the board display with a graphical user interface (GUI).
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it.
+
+## Contribution
+
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+
+---
+
+Enjoy the game and happy coding! 🎮
